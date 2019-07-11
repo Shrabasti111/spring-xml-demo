@@ -8,7 +8,7 @@ public class Movie
 {
     Actor actor;
 
-    public Movie(Actor actor) {
+    public void setActor(Actor actor) {
         this.actor = actor;
     }
 
